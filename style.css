@@ -1,0 +1,53 @@
+.container{
+    background-color: orange;
+    padding: 20px;
+    color: white;
+}
+.InputOptions{
+    outline: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border:1px solid wheat;
+    padding: 10px;
+    border-radius: 10px;
+}
+.AddButton{
+    background-color: orange;
+    border: 1px solid wheat;
+    color:  white;
+    margin-left: 20px;
+    padding :10px;
+    border-radius: 10px;
+}
+
+button.AddButton{
+    outline: none;
+}
+
+.form-section{
+    margin-top: 20px;
+}
+.display{
+    display: inline-block;
+    margin-left: 10px;
+}
+.TBDisplay{
+    margin-left: 10px;
+}
+
+.DynamicButton button{
+    color: white;
+    font-weight: bold;
+    border: 1px solid wheat;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: orange;
+    outline: none;
+}
+
+.DynamicButton button:hover{
+    background-color: white;
+    color:black;
+    transition: 500ms;
+}
